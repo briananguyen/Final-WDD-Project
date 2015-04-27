@@ -1,0 +1,873 @@
+body {
+	height: 100%;
+	width: auto;
+	overflow-x: hidden;
+	line-height: 200%;
+}
+
+#header-container {
+	width: 100%;
+	height: 100%;
+}
+
+#header img{
+	max-width: 100%;
+	height: auto;
+	position: absolute;
+	vertical-align: baseline;
+}
+
+.searchbar {
+	z-index: 100;
+	position: relative;
+	padding-left: 10px;
+
+
+}
+
+.searchbar input {
+	width: 200px;
+
+}
+
+#nav {
+	font-family: "Open Sans";
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	z-index: 100;
+	vertical-align: baseline;
+	opacity: 1;
+
+	top: 200px;
+
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	-mox-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #777;
+
+}
+
+
+
+.links {
+	font-size: 25px;
+	padding-left: 10px;
+
+}
+
+.contact-buttons {
+	position: relative;
+	display: inline-block;
+	width: 300px;
+	height: auto;
+	float: right;
+	left: 30px;
+	top: -35px;
+
+}
+
+.contact-buttons img {
+
+	width: 40px;
+	height: auto;
+	cursor: pointer;
+	margin-left: 20px;
+
+}
+
+#index-content {
+	display: inline-block;
+	position: relative;
+	top: 160px;
+	width: 100%;
+	height: 500px;
+
+	background-image: url(http://www.okelagi.com/wp-content/uploads/2014/11/wpid-Wallpaper-Pattern-Pink-1.jpg);
+	position: center;
+	
+	
+}
+
+#index-content img {
+	position: relative;
+	height: 100%;
+	width: 350px;
+	left: 170px;
+
+	margin-left: 5px;
+
+
+}
+
+
+
+
+#sisterhood-info {
+	position: relative;
+	width: 350px;
+	height: 200px;
+	z-index: 100px;
+	left: 175px;
+	top: -50px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.sisterhood-title {
+	text-align: center;
+	font-family: "Montserrat";
+	cursor: pointer;
+	font-size: 35px;
+
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.sisterhood-caption {
+	text-align: center;
+	font-family: "Open Sans";
+}
+
+
+
+#philo-info {
+	position: relative;
+	width: 350px;
+	height: 200px;
+	z-index: 100px;
+	left: 534px;
+	top: -250px;
+	background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+.philo-title {
+	font-family: "Montserrat";
+	cursor: pointer;
+	text-align: center;
+	font-size: 35px;
+
+}
+
+.philo-caption {
+	text-align: center;
+	font-family: "Open Sans";
+
+}
+
+
+#social-info {
+	position: relative;
+	width: 350px;
+	height: 200px;
+	z-index: 100px;
+	left: 893px;
+	top: -450px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.social-title {
+	font-family: "Montserrat";
+	cursor: pointer;
+	text-align: center;
+	font-size: 35px;
+}
+
+.social-caption {
+	text-align: center;
+	font-family: "Open Sans";
+
+}
+
+#bottom-container {
+	position: relative;
+	width: 100%;
+	height: 130px;
+	top: 260px;
+	z-index: 100;
+
+
+
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	-mox-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #777;
+
+
+
+}
+
+.index-image-container {
+	position: relative;
+	left: 150px;
+	width: 100%;
+	height: 300px;
+	display: inline-block;
+
+}
+
+.index-image-container img {
+	position: relative;
+	top: -60px;
+	height: 150px;
+	width: auto;
+	padding-left: 120px;
+
+
+}
+
+
+#bottom-header-index {
+	position: relative;
+	top: 260px;
+}
+
+#bottom-header-index img {
+	height: 260px;
+	width: auto;
+}
+
+#five-dine {
+	position: relative;
+	width: 550px;
+	height: 600px;
+	top: 215px;
+	margin-left: 80px;
+	font-family: "Montserrat";
+	font-size: 35px;
+	text-align: center;
+	margin-top: 15px;
+
+}
+
+#five-dine img {
+	width: 550px;
+	height: auto;
+	margin-top: 30px;
+	border-radius: 10%;
+
+}
+
+#five-dine-content {
+	font-size: 12px;
+	margin-top: 15px;
+	font-family: "Open Sans";
+
+
+
+
+}
+
+#gphi-joe {
+	position: relative;
+	width: 550px;
+	height: 600px;
+	font-family: "Montserrat";
+	font-size: 35px;
+	text-align: center;
+	top: -385px;
+	left: 800px;
+
+
+}
+
+#gphi-joe img {
+
+	width: 550px;
+	height: auto;
+	margin-top: 30px;
+	border-radius: 10%;
+
+}
+
+#gphi-joe-content {
+	font-size: 12px;
+	margin-top: 15px;
+	font-family: "Open Sans";
+
+
+}
+
+#bottom-header-philo {
+	position: relative;
+	top: -210px;
+
+
+}
+
+#bottom-header-philo img {
+	height: 260px;
+	width: auto;
+}
+
+#sisterhood-title {
+	position: relative;
+	text-align: center;
+	font-family: "Montserrat";
+	font-size: 55px;
+	width: 100%;
+	height: 30px;
+	top: 238px;
+	left: 138px;
+}
+
+#left-photo {
+	position: relative;
+	height: 550px;
+	top: 270px;
+	margin-left: 30px;
+	
+}
+
+#left-photo img {
+	height: 550px;
+	width: auto;
+	border-radius: 10%;
+}
+
+#right-photo {
+	position: relative;
+	height: 550px;
+	left: 950px;
+	top: -480px;
+	
+}
+
+#right-photo img {
+	height: 550px;
+	width: auto;
+	border-radius: 10%;
+}
+
+#sisterhood-text {
+	position: relative;
+	width: 430px;
+	height: 200px;
+	font-family: "Open Sans";
+	top: -280px;
+	left: 485px;
+	text-align: center;
+
+}
+
+
+#bottom-header-sister {
+	position: relative;
+	top: -370px;
+	height: 260px;
+
+}
+
+#bottom-header-sister img {
+	height: 260px;
+	width: auto;
+}
+
+
+
+#about-title {
+	position: relative;
+	font-family: "Montserrat";
+	font-size: 45px;
+	top: 250px;
+	left: 500px;
+
+
+
+}
+
+#about-content {
+	position: relative;
+	top: 300px;
+	left: 300px;
+	height: 800px;
+
+
+}
+
+.about-now-img {
+	position: relative;
+	width: 600px;
+	height: auto;
+	left: -200px;
+}
+
+.about-now-img img {
+	width: 600px;
+	height: auto;
+	padding-bottom: 20px;
+	vertical-align: middle;
+	border-radius: 10%;
+}
+
+.about-now {
+	position: relative;
+	width: 600px;
+	font-family: "Open Sans";
+	text-align: center;
+	margin-bottom: 30px;
+	left: 450px;
+	top: -470px;
+
+
+}
+
+.about-history {
+	position: relative;
+	width: 600px;
+	font-family: "Open Sans";
+	text-align: center;
+	top: -450px;
+	left: -200px;
+
+}
+
+.about-history-img {
+	position: relative;
+	width: 600px;
+	height: auto;
+	top: -790px;
+	left: 450px;
+
+}
+
+.about-history-img img {
+	width: 600px;
+	height: auto;
+	padding-bottom: 20px;
+	border-radius: 10%;
+
+}
+
+#bottom-header-about {
+	position: relative;
+	top: 500px;
+
+}
+
+#bottom-header-about img {
+	height: 260px;
+	width: auto;
+
+}
+
+#social-title {
+	position: relative;
+	font-family: "Montserrat";
+	font-size: 45px;
+	top: 250px;
+	left: 630px;
+
+}
+
+.exchanges-title {
+	position: relative;
+	font-family: "Montserrat";
+	font-size: 25px;
+	left: 385px;
+	top: 310px;
+}
+
+.exchanges-img {
+	position: relative;
+	width: 330px;
+	height: auto;
+	top: 280px;
+	left: 20px;
+}
+
+.exchanges-img img {
+	width: 330px;
+	height: auto;
+	border-radius: 10%;
+
+}
+
+.exchanges-content {
+	position: relative;
+	font-family: "Open Sans";
+	width: 300px;
+	height: auto;
+	left: 390px;
+	top: -130px;
+
+}
+
+.invites-title {
+	position: relative;
+	font-family: "Montserrat";
+	font-size: 25px;
+	left: 1090px;
+	top: -575px;
+}
+
+.invites-content {
+	position: relative;
+	font-family: "Open Sans";
+	width: 300px;
+	height: auto;
+	top: -1020px;
+	left: 1090px;
+}
+
+.invites-img {
+	position: relative;
+	width: 330px;
+	height: auto;
+	top: -610px;
+	left: 740px;
+}
+
+.invites-img img {
+	width: 330px;
+	height: auto;
+	border-radius: 10%;
+
+}
+
+.date-party-title {
+	position: relative;
+	font-family: "Montserrat";
+	font-size: 25px;
+	top: -950px;
+	left: 195px;
+}
+
+.date-party-img {
+	position: relative;
+	width: 330px;
+	height: auto;
+	top: -1400px;
+	left: 380px;
+
+}
+
+.date-party-img img {
+	width: 330px;
+	height: auto;
+	border-radius: 10%;
+}
+
+.date-party-content {
+	font-family: "Open Sans";
+	position: relative;
+	width: 330px;
+	height: auto;
+	top: -950px;
+	left: 30px;
+}
+
+.game-day-title {
+	position: relative;
+	font-family: "Montserrat";
+	font-size: 25px;
+	top: -1840px;
+	left: 900px;
+}
+.game-day-content {
+	position: relative;
+	width: 300px;
+	height: auto;
+	top: -1840px;
+	left: 740px;
+	font-family: "Open Sans";
+}
+
+.game-day-img {
+	position: relative;
+	width: 330px;
+	height: auto;
+	top: -2290px;
+	left: 1060px;
+}
+
+.game-day-img img {
+	width: 330px;
+	height: auto;
+	border-radius: 10%;
+}
+
+
+#bottom-header-social {
+	position: relative;
+	top: -2200px;
+}
+
+#bottom-header-social img {
+	height: 260px;
+	width: auto;
+}
+
+#recruitment-title {
+	position: relative;
+	font-family: "Montserrat";
+	font-size: 45px;
+	top: 250px;
+	left: 550px;
+
+}
+
+.recruitment-content {
+	position: relative;
+	font-family: "Open Sans";
+	left: 50px;
+	width: 1350px;
+	top: 270px;
+
+
+
+}
+
+.recruitment-imgs {
+	position: relative;
+	width: 1350px;
+	top: 330px;
+
+
+}
+
+.recruitment-imgs img {
+	position: relative;
+	width: 650px;
+	height: auto;
+	padding-left: 20px;
+	left: 30px;
+	border-radius: 10%;
+}
+
+#bottom-header-recruitment {
+	position: relative;
+	top: 400px;
+}
+
+#bottom-header-recruitment img {
+	height: 260px;
+	width: auto;
+}
+
+#calendar-title {
+	position: relative;
+	font-family: "Montserrat";
+	font-size: 45px;
+	top: 250px;
+	left: 420px;
+
+}
+
+#prev {
+	position: relative;
+	
+	top: 600px;
+	left: 150px;
+
+
+}
+
+#prev img {
+	position: relative;
+	width: 100px;
+	cursor: pointer;
+
+}
+
+.carousel-container {
+	width: 100%;
+	height: 700px;
+	margin: 0px auto;
+
+	position: relative;
+
+}
+
+#carousel {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	margin-left: 0px;
+	-webkit-transition: all 0.3s;
+
+
+}
+
+.carousel-item {
+	width: 700px;
+	position: absolute;
+	height: 100%;
+	float: left;
+	top: 300px;
+	left: 360px;
+
+}
+
+.carousel-item img {
+	width: 700px;
+	height: auto;
+}
+
+#next {
+	position: relative;
+	
+	top: 480px;
+	left: 1150px;
+
+}
+
+#next img {
+	position: relative;
+	width: 100px;
+	cursor: pointer;
+
+}
+
+#bottom-header-calendar {
+	position: relative;
+	top: 450px;
+
+}
+
+#bottom-header-calendar img {
+	height: 260px;
+	width: auto;
+}
+
+#faq-title {
+	position: relative;
+	font-family: "Montserrat";
+	font-size: 45px;
+	top: 250px;
+	left: 300px;
+}
+
+#faq-content {
+	position: relative;
+	width: 650px;
+	left: 650px;
+	top: 310px;
+
+}
+
+.faq-question {
+	padding-bottom: 25px;
+	font-family: "Open Sans";
+
+}
+
+.faq-img {
+	position: relative;
+	left: 70px;
+	top: -240px;
+
+
+}
+
+.faq-img img {
+	width: 500px;
+	height: auto;
+	border-radius: 10%;
+}
+
+#bottom-header-faq {
+	position: relative;
+	top: -150px;
+}
+
+#bottom-header-faq img {
+	height: 260px;
+	width: auto;
+}
+
+#scholar-title {
+	position: relative;
+	font-family: "Montserrat";
+	font-size: 45px;
+	top: 270px;
+	left: 320px;
+}
+
+.scholar-content{
+	position: relative;
+	font-family: "Open Sans";
+	width: 600px;
+	top: 330px;
+	left: 700px;
+}
+
+.scholar-img {
+	position: relative;
+	left: 100px;
+	top: -400px;
+}
+
+.scholar-img img {
+	width: 500px;
+	height: auto;
+	border-radius: 10%;
+}
+
+#bottom-header-scholar {
+	position: relative;
+	top: -320px;
+}
+
+#bottom-header-scholar img {
+	height: 260px;
+	width: auto;
+}
+
+#gallery-title {
+	position: relative;
+	font-family: "Montserrat";
+	font-size: 45px;
+	top: 260px;
+	left: 600px;
+}
+
+#vertical {
+	position: relative;
+	width: 100%;
+	top: 300px;
+	display: inline-block;
+	left: 70px;
+
+
+}
+
+#vertical img {
+	width: 300px;
+	height: 452px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#horizontal {
+	position: relative;
+	width: 100%;
+	top: 300px;
+	left: 40px;
+}
+
+#horizontal img {
+	width: 400px;
+	padding-left: 30px;
+}
+
+#bottom-header-gallery {
+	position: relative;
+	top: 350px;
+}
+
+#bottom-header-gallery img {
+	height: 260px;
+	width: auto;
+}
+
